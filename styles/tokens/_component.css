@@ -1,0 +1,119 @@
+/* ==========================================================================
+   CAPA 3 — COMPONENTE (Auth)
+   Decisiones por widget. Solo referencian la capa 2 (nunca la 1).
+   Cambiar este archivo = cambiar UN componente.
+   ========================================================================== */
+:root {
+
+    /* Página */
+    --page-bg:     var(--color-bg);
+    --page-text:   var(--color-text);
+    --page-height: var(--size-viewport);
+
+    /* Card */
+    --card-bg:     var(--color-surface-alt);
+    --card-radius: var(--radius-sharp);
+    --card-shadow: var(--shadow-elevated);
+    --card-width:  var(--size-card-width);
+    --card-height: var(--size-card-height);
+    --card-panel-layer: var(--layer-panel);
+    --card-motion: var(--motion-panel);
+
+    /* Hero (panel lateral con el CTA) */
+    --hero-bg:                var(--color-action);
+    --hero-text:              var(--color-action-text);
+    --hero-layer:             var(--layer-hero);
+    --hero-gap:               var(--space-lg);
+    --hero-padding-x:         var(--space-xl);
+    --hero-copy-margin:       var(--space-xs);
+    --hero-copy-opacity:      var(--opacity-strong);
+    --hero-leading:           var(--leading-copy);
+    --hero-label-padding-y:   var(--space-md);
+    --hero-label-padding-x:   var(--space-3xl);
+    --hero-label-radius:      var(--radius-sharp);
+    --hero-label-size:        var(--text-lg);
+    --hero-label-tracking:    var(--tracking-wide);
+    --hero-label-border:      var(--border-width);
+    --hero-label-bg:          var(--color-glass);
+    --hero-label-blur:        var(--blur-glass);
+    --hero-label-bg-hover:    var(--color-action-text);
+    --hero-label-text-hover:  var(--color-action);
+    --hero-label-motion:      var(--motion-quick);
+
+    /* Form */
+    --form-bg:            var(--color-surface);
+    --form-layer:         var(--layer-form);
+    --form-gap:           var(--space-lg);
+    --form-padding:       var(--space-2xl);
+    --form-title-size:    var(--text-xl);
+    --form-title-margin:  var(--space-md);
+    --form-field-gap:     var(--space-md);
+    --form-label-size:    var(--text-sm);
+    --form-note-size:     var(--text-sm);
+    --form-muted-opacity: var(--opacity-muted);
+    --form-title-weight:  var(--weight-medium);
+
+    /* Controles (input + button comparten altura) */
+    --control-height: var(--size-control);
+
+    /* Input */
+    --input-bg:          var(--color-field);
+    --input-border:      var(--color-border);
+    --input-border-width: var(--border-width);
+    --input-radius:      var(--radius-sharp);
+    --input-padding-y:   var(--space-control);
+    --input-padding-x:   var(--space-md);
+    --input-placeholder: var(--color-text-muted);
+
+    /* Button */
+    --button-bg:        var(--color-action);
+    --button-text:      var(--color-action-text);
+    --button-radius:    var(--radius-sharp);
+    --button-padding-y: var(--space-control);
+    --button-width:     var(--size-button-fixed);
+    --button-tracking:  var(--tracking-wide);
+
+    /* Divisor "Or" */
+    --or-height:          var(--size-icon-md);
+    --or-bg:              var(--color-surface);
+    --or-text:            var(--color-text);
+    --or-size:            var(--text-sm);
+    --or-padding-x:       var(--space-md);
+    --or-weight:          var(--weight-medium);
+    --or-opacity:         var(--opacity-muted);
+    --or-line-color:      var(--color-divider);
+    --or-line-thickness:  var(--border-width);
+    --or-line-opacity:    var(--opacity-divider);
+
+    /* Botones sociales */
+    --socials-gap:        var(--space-sm);
+    --social-text:        var(--color-text);
+    --social-size:        var(--text-md);
+    --social-weight:      var(--weight-medium);
+    --social-border:      var(--color-border);
+    --social-border-width: var(--border-width);
+    --social-radius:      var(--radius-sharp);
+    --social-gap:         var(--space-icon-gap);
+    --social-padding-y:   var(--space-sm);
+    --social-padding-x:   var(--space-control);
+    --social-icon-height: var(--size-icon-md);
+    --social-icon-height-first: var(--size-icon-sm);
+
+    /* Remember / Forgot */
+    --remember-row-height: var(--size-row-tall);
+    --remember-size:       var(--text-xs);
+    --remember-gap:        var(--space-xs);
+    --checkbox-size:       var(--size-checkbox);
+    --checkbox-bg:         var(--color-action);
+    --checkbox-border:     var(--color-border);
+    --checkbox-radius:     var(--radius-sharp);
+    --check-color:         var(--color-action-text);
+    --check-stroke:        var(--border-width-bold);
+    --check-width:         var(--size-check-w);
+    --check-height:        var(--size-check-h);
+    --check-top:           var(--offset-check-top);
+    --check-left:          var(--offset-check-left);
+    --check-angle:         var(--angle-check);
+    --forgot-size:         var(--text-sm);
+    --forgot-opacity:      var(--opacity-muted);
+}

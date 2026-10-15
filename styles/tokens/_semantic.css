@@ -1,0 +1,108 @@
+/* ==========================================================================
+   CAPA 2 — SEMÁNTICOS
+   Roles: para QUÉ sirve cada valor. Todo apunta a la capa 1.
+   Cambiar este archivo = cambiar el TEMA.
+   ========================================================================== */
+
+/* ---------- Tema claro (por defecto) ---------- */
+:root,
+:root[data-theme="light"] {
+    color-scheme: light;
+
+    --color-bg:           var(--color-neutral-100);
+    --color-surface:      var(--color-neutral-0);
+    --color-surface-alt:  var(--color-neutral-200);
+    --color-field:        var(--color-neutral-150);
+    --color-text:         var(--color-neutral-900);
+    --color-text-muted:   var(--color-neutral-500);
+    --color-border:       var(--color-black-a10);
+    --color-divider:      var(--color-black-a40);
+    --color-action:       var(--color-neutral-900);
+    --color-action-text:  var(--color-neutral-50);
+    --color-accent:       var(--color-blue-700);
+    --shadow-elevated:    var(--shadow-indigo-80);
+}
+
+/* ---------- Tema oscuro: SOLO redefine roles de color y sombra ---------- */
+:root[data-theme="dark"] {
+    color-scheme: dark;
+
+    --color-bg:           var(--color-neutral-950);
+    --color-surface:      var(--color-neutral-800);
+    --color-surface-alt:  var(--color-neutral-900);
+    --color-field:        var(--color-neutral-900);
+    --color-text:         var(--color-neutral-50);
+    --color-text-muted:   var(--color-neutral-500);
+    --color-border:       var(--color-white-a10);
+    --color-divider:      var(--color-white-a40);
+    --color-action:       var(--color-neutral-50);
+    --color-action-text:  var(--color-neutral-900);
+    --color-accent:       var(--color-sky-300);
+    --shadow-elevated:    var(--shadow-black-80);
+}
+
+/* ---------- Roles independientes del tema ---------- */
+:root {
+    /* Marca (movidos desde la capa 1, donde estaban mezclados) */
+    --color-brand-primary: var(--color-blue-700);
+    --color-brand-surface: var(--color-gray-100);
+    --color-glass:         var(--color-white-a4);
+
+    /* Espaciado */
+    --space-xs:       var(--space-1p5);
+    --space-sm:       var(--space-2);
+    --space-md:       var(--space-3);
+    --space-lg:       var(--space-4);
+    --space-xl:       var(--space-6);
+    --space-2xl:      var(--space-7);
+    --space-3xl:      var(--space-8);
+    --space-icon-gap: var(--space-2p5);
+    --space-control:  var(--space-3p5);
+
+    /* Tamaños */
+    --size-card-width:    var(--dim-800);
+    --size-card-height:   var(--dim-520);
+    --size-control:       var(--dim-46);
+    --size-row-tall:      var(--dim-62);
+    --size-button-fixed:  var(--dim-160);
+    --size-icon-sm:       var(--dim-20);
+    --size-icon-md:       var(--dim-24);
+    --size-checkbox:      var(--dim-14);
+    --size-check-w:       var(--dim-6);
+    --size-check-h:       var(--dim-3);
+    --offset-check-top:   var(--dim-3);
+    --offset-check-left:  var(--dim-2p5);
+    --size-viewport:      var(--dim-screen);
+    --extent-half:        var(--pct-half);
+    --extent-full:        var(--pct-full);
+
+    /* Forma */
+    --radius-sharp:      var(--radius-0);
+    --border-width:      var(--border-1);
+    --border-width-bold: var(--border-2);
+    --angle-check:       var(--angle-neg-45);
+
+    /* Tipografía */
+    --text-xs:      var(--font-size-10);
+    --text-sm:      var(--font-size-12);
+    --text-md:      var(--font-size-15);
+    --text-lg:      var(--font-size-16);
+    --text-xl:      var(--font-size-22);
+    --weight-medium: var(--font-weight-500);
+    --leading-copy:  var(--leading-145);
+    --tracking-none: var(--tracking-0);
+    --tracking-wide: var(--tracking-1);
+
+    /* Opacidad, efectos y capas */
+    --opacity-muted:   var(--opacity-50);
+    --opacity-divider: var(--opacity-60);
+    --opacity-strong:  var(--opacity-95);
+    --blur-glass:      var(--blur-4);
+    --layer-form:      var(--z-1);
+    --layer-panel:     var(--z-2);
+    --layer-hero:      var(--z-3);
+
+    /* Movimiento */
+    --motion-panel: var(--duration-450) var(--easing-in-out);
+    --motion-quick: var(--duration-300);
+}
