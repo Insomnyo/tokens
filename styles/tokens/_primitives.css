@@ -1,0 +1,87 @@
+/* NOTE: All colours where recollected form the original idlc website */
+
+/* ==========================================================================
+   CAPA 1 — PRIMITIVOS
+   Solo valores crudos. Sin significado de uso y sin referencias a otras capas.
+   Cambiar este archivo = cambiar la MARCA.
+   (Se eliminó el bloque "Semantical Nomenclature" que mezclaba capas.)
+   ========================================================================== */
+
+:root {
+
+    /* ---- Color · marca (paleta original idlc) ---- */
+    --color-blue-500:   #046bd2; /* congregational-blue */
+    --color-blue-700:   #045cb4; /* congregational-dark-blue */
+    --color-blue-900:   #02356b;
+    --color-orange-500: #ff8200; /* sunday-orange */
+    --color-teal-500:   #34c2c6; /* campaign-turqueise */
+    --color-sky-300:    #6ec1e4; /* congress-ligth-blue */
+    --color-gray-100:   #d8e4eb; /* declaration-ligth-grey */
+    --color-gray-700:   #54595f; /* declaration-dark-grey */
+
+    /* ---- Color · neutros del Auth ---- */
+    --color-neutral-0:   #ffffff;
+    --color-neutral-50:  #f9f9f9;
+    --color-neutral-100: #f4f4f4;
+    --color-neutral-150: #f3f3f1;
+    --color-neutral-200: #ececec;
+    --color-neutral-500: #96959e;
+    --color-neutral-800: #2e3433;
+    --color-neutral-900: #212625;
+    --color-neutral-950: #111413;
+
+    /* ---- Color · transparencias ---- */
+    --color-black-a10: rgb(0 0 0 / 10%);
+    --color-black-a40: rgb(0 0 0 / 40%);
+    --color-white-a4:  rgb(255 255 255 / 4%);
+    --color-white-a10: rgb(255 255 255 / 10%);
+    --color-white-a40: rgb(255 255 255 / 40%);
+
+    /* ---- Sombras ---- */
+    --shadow-indigo-80: 0 12px 80px rgb(41 30 113 / 12%);
+    --shadow-black-80:  0 12px 80px rgb(0 0 0 / 50%);
+
+    /* ---- Dimensiones (el número = px) ---- */
+    --dim-2p5: 2.5px;
+    --dim-3:   3px;
+    --dim-6:   6px;
+    --dim-14:  14px;
+    --dim-20:  20px;
+    --dim-24:  24px;
+    --dim-46:  46px;
+    --dim-62:  62px;
+    --dim-160: 160px;
+    --dim-520: 520px;
+    --dim-800: 800px;
+    --dim-screen:  100dvh;
+
+    /* ---- Bordes (radios en _radius.css, espaciado en _spacing.css) ---- */
+    --border-1: 1px;
+    --border-2: 2px;
+
+    /* ---- Tipografía ---- */
+    --font-size-10: 10px;
+    --font-size-12: 12px;
+    --font-size-15: 15px;
+    --font-size-16: 16px;
+    --font-size-22: 22px;
+    --font-weight-500: 500;
+    --leading-145: 1.45;
+    --tracking-0: 0;
+    --tracking-1: 1px;
+
+    /* ---- Efectos, opacidad, capas, ángulos ---- */
+    --blur-4: 4px;
+    --opacity-50: 0.5;
+    --opacity-60: 0.6;
+    --opacity-95: 0.95;
+    --z-1: 1;
+    --z-2: 2;
+    --z-3: 3;
+    --angle-neg-45: -45deg;
+
+    /* ---- Movimiento ---- */
+    --duration-300: 0.3s;
+    --duration-450: 0.45s;
+    --easing-in-out: ease-in-out;
+}
